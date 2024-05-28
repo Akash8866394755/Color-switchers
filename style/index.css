@@ -1,5 +1,126 @@
 body {
     padding: 0;
     margin: 0;
-    background: red;
 }
+* {
+    font-family: Poppins;
+}
+#navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    position: fixed;
+    top: 0;
+}
+button {
+    border: none;
+    background: transparent;
+    font-size: 12px;
+    color: #ddd;
+    cursor: pointer;
+}
+button:hover {
+    color: #ccc;
+}
+#title h3 {
+    padding: 0;
+    margin: 0;
+    margin-left: 14px;
+    color: white;
+}#list-menu {
+    display: flex;
+    gap: 12px;
+    margin-right: 16px;
+}
+#bg-img {
+    width: 100%;
+}
+#bg-img img {
+width: 100%;
+}
+#para {
+    width: 95%;
+    margin: 0 auto;
+}
+#para p {
+    color: #ccc;
+    font-size: 8px;
+    padding: 0;
+    margin: 0;
+}
+#bottom-nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+#bottom-list {
+    padding: 16px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #182848;
+
+}
+#bottom-para {
+    color: #ccc;
+    font-size: 8px;
+}
+#color-list {
+    width:0;
+    background: #4b6cb7 ;
+    position: fixed;
+    top: 105px;
+    left: 0;
+    padding-bottom: 8px;
+}
+#color-switch {
+    width:20px;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    height: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: #ddd;
+    cursor: pointer;
+    
+}
+#color-switch i {
+    margin-right: 3px;
+    font-size: 14px;
+}
+#desc {
+    position: absolute;
+    display: flex;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #ccc;
+}
+#backgrounds {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin-top:12px;
+    flex-direction: column;
+    
+}
+#list1 {
+display: flex;
+gap: 4px;
+justify-content: center;
+}
+
+#bg-box {
+    width: 23px;
+    height: 15px;
+    cursor: pointer;
+}
+#moon-icon {
+    color: #ddd;
+    cursor: pointer;
+    margin-right: 7px;
+}
+
+
