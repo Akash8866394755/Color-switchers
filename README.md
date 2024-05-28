@@ -1,0 +1,3 @@
+I'm here to develop a color switcher feature for a website using what I've learned about JavaScript.
+My first thought while creating a logo in Photoshop is always about its utility. wherein the element's text and background colors automatically change when I choose a specific color from the panels and apply it to the element I've selected. 
+I've now made the decision to develop a website with color functionality so that visitors can choose colors that best suit them. The website's text changes to a gorgeous shade, making it visually appealing and allowing users to engage with it in the modern world.
